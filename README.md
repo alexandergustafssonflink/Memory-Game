@@ -22,3 +22,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 Henric Björkvall
+
+## Code review 
+By [Alexander Gustafsson Flink](https://github.com/alexandergustafssonflink)
+
+- on scripts.js:1: The cards array contains the different cards twice. Might make the code more dynamic if you instead used a function to duplicate the objects in the array. 
+
+- on scripts.js:36: The function description says that it creates an image tag, but seems to create a div as well
+
+- on index.html:40: You seem to calla functions.js-file, but no such file exists
+
+- on script.js:70: Theres is no description to the flipCard-function
+
+- on script.js:120: Theres is no description to the resetBoard-function
+
+- Keep on rockin' in the free world
